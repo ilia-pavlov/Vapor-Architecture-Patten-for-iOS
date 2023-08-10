@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		0873B7A12A84807700FFD3FE /* Vapor_Architecture_Patten_for_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0873B7A02A84807700FFD3FE /* Vapor_Architecture_Patten_for_iOSApp.swift */; };
 		0873B7A32A84807700FFD3FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0873B7A22A84807700FFD3FE /* ContentView.swift */; };
-		0873B7A52A84807800FFD3FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0873B7A42A84807800FFD3FE /* Assets.xcassets */; };
-		0873B7A82A84807800FFD3FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0873B7A72A84807800FFD3FE /* Preview Assets.xcassets */; };
-		0873B7B22A84807800FFD3FE /* Vapor_Architecture_Patten_for_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0873B7B12A84807800FFD3FE /* Vapor_Architecture_Patten_for_iOSTests.swift */; };
-		0873B7BC2A84807800FFD3FE /* Vapor_Architecture_Patten_for_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0873B7BB2A84807800FFD3FE /* Vapor_Architecture_Patten_for_iOSUITests.swift */; };
-		0873B7BE2A84807800FFD3FE /* Vapor_Architecture_Patten_for_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0873B7BD2A84807800FFD3FE /* Vapor_Architecture_Patten_for_iOSUITestsLaunchTests.swift */; };
+		0873B7D52A84815700FFD3FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0873B7D42A84815700FFD3FE /* Main.storyboard */; };
+		0873B7D72A8481C900FFD3FE /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0873B7D62A8481C900FFD3FE /* MainVC.swift */; };
+		0873B7DC2A84825500FFD3FE /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0873B7DB2A84825500FFD3FE /* Post.swift */; };
+		0873B7DE2A8482ED00FFD3FE /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0873B7DD2A8482ED00FFD3FE /* PostService.swift */; };
+		0873B7E02A84837800FFD3FE /* PostListProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0873B7DF2A84837800FFD3FE /* PostListProtocol.swift */; };
+		0873B7E22A8483F400FFD3FE /* PostListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0873B7E12A8483F400FFD3FE /* PostListInteractor.swift */; };
+		0873B7E42A8484A400FFD3FE /* PostListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0873B7E32A8484A400FFD3FE /* PostListRouter.swift */; };
+		0873B7E62A8484F600FFD3FE /* PostListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0873B7E52A8484F600FFD3FE /* PostListPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,13 +40,16 @@
 		0873B79D2A84807700FFD3FE /* Vapor Architecture Patten for iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vapor Architecture Patten for iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0873B7A02A84807700FFD3FE /* Vapor_Architecture_Patten_for_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vapor_Architecture_Patten_for_iOSApp.swift; sourceTree = "<group>"; };
 		0873B7A22A84807700FFD3FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		0873B7A42A84807800FFD3FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0873B7A72A84807800FFD3FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0873B7AD2A84807800FFD3FE /* Vapor Architecture Patten for iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vapor Architecture Patten for iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0873B7B12A84807800FFD3FE /* Vapor_Architecture_Patten_for_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vapor_Architecture_Patten_for_iOSTests.swift; sourceTree = "<group>"; };
 		0873B7B72A84807800FFD3FE /* Vapor Architecture Patten for iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vapor Architecture Patten for iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0873B7BB2A84807800FFD3FE /* Vapor_Architecture_Patten_for_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vapor_Architecture_Patten_for_iOSUITests.swift; sourceTree = "<group>"; };
-		0873B7BD2A84807800FFD3FE /* Vapor_Architecture_Patten_for_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vapor_Architecture_Patten_for_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0873B7D42A84815700FFD3FE /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		0873B7D62A8481C900FFD3FE /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		0873B7DB2A84825500FFD3FE /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		0873B7DD2A8482ED00FFD3FE /* PostService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostService.swift; sourceTree = "<group>"; };
+		0873B7DF2A84837800FFD3FE /* PostListProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListProtocol.swift; sourceTree = "<group>"; };
+		0873B7E12A8483F400FFD3FE /* PostListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListInteractor.swift; sourceTree = "<group>"; };
+		0873B7E32A8484A400FFD3FE /* PostListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListRouter.swift; sourceTree = "<group>"; };
+		0873B7E52A8484F600FFD3FE /* PostListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +81,6 @@
 			isa = PBXGroup;
 			children = (
 				0873B79F2A84807700FFD3FE /* Vapor Architecture Patten for iOS */,
-				0873B7B02A84807800FFD3FE /* Vapor Architecture Patten for iOSTests */,
-				0873B7BA2A84807800FFD3FE /* Vapor Architecture Patten for iOSUITests */,
 				0873B79E2A84807700FFD3FE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,37 +98,122 @@
 		0873B79F2A84807700FFD3FE /* Vapor Architecture Patten for iOS */ = {
 			isa = PBXGroup;
 			children = (
-				0873B7A02A84807700FFD3FE /* Vapor_Architecture_Patten_for_iOSApp.swift */,
-				0873B7A22A84807700FFD3FE /* ContentView.swift */,
-				0873B7A42A84807800FFD3FE /* Assets.xcassets */,
-				0873B7A62A84807800FFD3FE /* Preview Content */,
+				0873B7D82A84821500FFD3FE /* Models */,
+				0873B7CB2A8480B100FFD3FE /* Modulels */,
+				0873B7CA2A84809B00FFD3FE /* UserInterface */,
 			);
 			path = "Vapor Architecture Patten for iOS";
 			sourceTree = "<group>";
 		};
-		0873B7A62A84807800FFD3FE /* Preview Content */ = {
+		0873B7CA2A84809B00FFD3FE /* UserInterface */ = {
 			isa = PBXGroup;
 			children = (
-				0873B7A72A84807800FFD3FE /* Preview Assets.xcassets */,
+				0873B7D32A84814200FFD3FE /* UIKit */,
+				0873B7D22A84813400FFD3FE /* SwiftUI */,
 			);
-			path = "Preview Content";
+			path = UserInterface;
 			sourceTree = "<group>";
 		};
-		0873B7B02A84807800FFD3FE /* Vapor Architecture Patten for iOSTests */ = {
+		0873B7CB2A8480B100FFD3FE /* Modulels */ = {
 			isa = PBXGroup;
 			children = (
-				0873B7B12A84807800FFD3FE /* Vapor_Architecture_Patten_for_iOSTests.swift */,
+				0873B7CC2A8480C400FFD3FE /* PostsListModules */,
 			);
-			path = "Vapor Architecture Patten for iOSTests";
+			path = Modulels;
 			sourceTree = "<group>";
 		};
-		0873B7BA2A84807800FFD3FE /* Vapor Architecture Patten for iOSUITests */ = {
+		0873B7CC2A8480C400FFD3FE /* PostsListModules */ = {
 			isa = PBXGroup;
 			children = (
-				0873B7BB2A84807800FFD3FE /* Vapor_Architecture_Patten_for_iOSUITests.swift */,
-				0873B7BD2A84807800FFD3FE /* Vapor_Architecture_Patten_for_iOSUITestsLaunchTests.swift */,
+				0873B7D12A84812500FFD3FE /* View */,
+				0873B7D02A84811C00FFD3FE /* Interactor */,
+				0873B7CF2A84811400FFD3FE /* Router */,
+				0873B7CE2A8480ED00FFD3FE /* Protocol */,
+				0873B7CD2A8480E500FFD3FE /* Presenter */,
 			);
-			path = "Vapor Architecture Patten for iOSUITests";
+			path = PostsListModules;
+			sourceTree = "<group>";
+		};
+		0873B7CD2A8480E500FFD3FE /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				0873B7E52A8484F600FFD3FE /* PostListPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		0873B7CE2A8480ED00FFD3FE /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				0873B7DF2A84837800FFD3FE /* PostListProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		0873B7CF2A84811400FFD3FE /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				0873B7E32A8484A400FFD3FE /* PostListRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		0873B7D02A84811C00FFD3FE /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				0873B7E12A8483F400FFD3FE /* PostListInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		0873B7D12A84812500FFD3FE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0873B7D62A8481C900FFD3FE /* MainVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0873B7D22A84813400FFD3FE /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				0873B7A02A84807700FFD3FE /* Vapor_Architecture_Patten_for_iOSApp.swift */,
+				0873B7A22A84807700FFD3FE /* ContentView.swift */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
+		0873B7D32A84814200FFD3FE /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				0873B7D42A84815700FFD3FE /* Main.storyboard */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		0873B7D82A84821500FFD3FE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0873B7DA2A84822D00FFD3FE /* Service */,
+				0873B7D92A84822400FFD3FE /* Entity */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0873B7D92A84822400FFD3FE /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				0873B7DB2A84825500FFD3FE /* Post.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		0873B7DA2A84822D00FFD3FE /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				0873B7DD2A8482ED00FFD3FE /* PostService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +320,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0873B7A82A84807800FFD3FE /* Preview Assets.xcassets in Resources */,
-				0873B7A52A84807800FFD3FE /* Assets.xcassets in Resources */,
+				0873B7D52A84815700FFD3FE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +345,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0873B7DE2A8482ED00FFD3FE /* PostService.swift in Sources */,
 				0873B7A32A84807700FFD3FE /* ContentView.swift in Sources */,
+				0873B7E42A8484A400FFD3FE /* PostListRouter.swift in Sources */,
+				0873B7D72A8481C900FFD3FE /* MainVC.swift in Sources */,
 				0873B7A12A84807700FFD3FE /* Vapor_Architecture_Patten_for_iOSApp.swift in Sources */,
+				0873B7DC2A84825500FFD3FE /* Post.swift in Sources */,
+				0873B7E22A8483F400FFD3FE /* PostListInteractor.swift in Sources */,
+				0873B7E02A84837800FFD3FE /* PostListProtocol.swift in Sources */,
+				0873B7E62A8484F600FFD3FE /* PostListPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +361,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0873B7B22A84807800FFD3FE /* Vapor_Architecture_Patten_for_iOSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +368,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0873B7BE2A84807800FFD3FE /* Vapor_Architecture_Patten_for_iOSUITestsLaunchTests.swift in Sources */,
-				0873B7BC2A84807800FFD3FE /* Vapor_Architecture_Patten_for_iOSUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,7 +508,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Vapor Architecture Patten for iOS/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 25DZPJJA4Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -445,7 +537,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Vapor Architecture Patten for iOS/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 25DZPJJA4Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
